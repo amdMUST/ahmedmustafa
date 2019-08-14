@@ -1,0 +1,38 @@
+/*$dark: #111 ;
+light: #DFCECE ;
+*/
+
+body.dark-mode{
+	background-color: #111111; /*dark*/
+	color: #DFCECE; /*light*/	
+}	
+	button.dark-mode {
+		background-color: #DFCECE; /*light*/
+		color: #111111; /*dark*/
+	}
+
+body.light-mode{
+	background-color: #DFCECE; /*light*/
+	color: #111111; /*dark*/
+}
+	button.light-mode {
+		background-color: #111111; /*dark*/
+		color: #DFCECE; /*light*/
+	}
+
+a{
+	color: #111111 ; /*dark*/
+}
+
+button {
+	background-color: #660e0e;
+	border: red;
+	color: black;
+	font-size: 40px;
+	padding: 10px 30px;
+	border-radius: 7.5px;
+	text-align: center;
+}
+button:hover {
+	background-color: #590505;
+}
