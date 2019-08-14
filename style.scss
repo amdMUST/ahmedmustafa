@@ -1,0 +1,39 @@
+$dark: #111 ;
+$light: #DFCECE ;
+
+body.dark-mode{
+	background-color: $dark;
+	color: $light;
+	a{
+		color: $dark;
+	}
+	button {
+    background-color: $light;
+    color: $dark;
+  }
+}	
+
+body.light-mode{
+	background-color: $light;
+	color: $dark;
+	a{
+		color: $dark;
+	}
+	button {
+    background-color: $dark;
+    color: $light;
+  }
+}
+
+button {
+	background-color: #660e0e;
+	border: red;
+	color: black;
+	font-size: 40px;
+	padding: 10px 30px;
+	border-radius: 7.5px;
+	text-align: center;
+}
+button:hover {
+	background-color: #590505;
+}
