@@ -46,6 +46,7 @@ body{
 }
 header{
 	text-align: center;
+	font-size: 40px;
 }
 footer{
 	text-align: center;
@@ -77,4 +78,19 @@ p.toggletext{
 }
 #toggleSetup{
 	float: right;
+}
+
+h2{
+	text-align: center;
+	padding: 10px;
+	font-size: 30px;
+}
+
+.panelsAll{
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-gap: 10px;
+	justify-content: center;
+	align-content: center;
+	padding: 15px;
 }
