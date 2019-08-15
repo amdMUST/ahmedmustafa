@@ -75,3 +75,6 @@ p.toggletext{
 	font-family: futura;
 	font-weight: bold;
 }
+#toggleSetup{
+	float: right;
+}
