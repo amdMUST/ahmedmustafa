@@ -30,7 +30,7 @@ button {
 	color: black;
 	font-size: 9px;
 	padding: 4% 2%;
-	border-radius: 1%;
+	border-radius: 10%;
 	text-align: center;
 	font-family: futura;
 	font-weight: bold;
@@ -51,14 +51,14 @@ header{
 footer{
 	text-align: center;
 }
-hr.dark-mode{
+br.dark-mode{
 	color: #DFCECE;
 	height: 1px;
   	background-color: #DFCECE;
   	border: none;
 
 }
-hr.light-mode{
+br.light-mode{
 	color: #111111;
 	height: 1px;
   	background-color: #111111;
