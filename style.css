@@ -94,3 +94,57 @@ h2{
 	align-content: center;
 	padding: 15px;
 }
+.image{
+	height: auto;
+	max-width: 100%;
+	opacity:1;
+	display: block;
+	transition: .75s ease;
+}
+
+@media screen and (max-width: 750px){
+	.panelsAll{
+		grid-template-columns: auto;
+		display: grid;
+		grid-gap: 10px;
+		justify-content: center;
+		align-content: center;
+		padding: 10px;
+	}
+}
+
+.container {
+	position: relative;
+  }
+
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .75s ease;
+	
+  }
+  
+  .container:hover .overlay{
+	opacity: 1;
+  }
+  .container:hover .image{
+	  opacity: .41;
+  }
+  
+  .text {
+	color: #590505;
+	font-size: 30px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: futura;
+	font-weight: bold;
+  }
+  
