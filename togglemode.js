@@ -7,10 +7,16 @@
 	}
 
 // to get the modal //
-	function overlayOn() {
-		document.getElementById("overlayBig").style.display = "block";
+	function overlayOn(Mypanel) {
+		
+		var overlayBig = document.getElementById(Mypanel);
+		overlayBig.style.display = "block";
 	}
   
-	function overlayOff() {
-		document.getElementById("overlayBig").style.display = "none";
+	function overlayOff(Mypanel) {
+	
+			var overlayBig = document.getElementById(Mypanel);
+			overlayBig.style.display = "none";
+		
 	}
+	
