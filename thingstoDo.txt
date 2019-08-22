@@ -8,9 +8,7 @@ things to do:
     5. CHANGE THE FAVICON TO A CUSTOM PICTURE
     6. make a better color pallate for the site
     7. make the games/projects for all the panels 
+    8. gotta fix that once in panel pull out, it still transitions the main panel
 
 EXTRA:
     - make the website more interactive
-
-
-

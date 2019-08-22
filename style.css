@@ -183,7 +183,12 @@ light: #DFCECE ;
 		z-index: 2;
 		cursor: auto;
 		border-radius: 10px;
+		transition: 1.5s ease;
 	}
+		.overlayBig:hover, .image, .overlay{
+			
+		}
+
 	p.inOverlay{
 		font-size: 50px;
 		text-align: center;
@@ -193,25 +198,31 @@ light: #DFCECE ;
 		text-align: center;
 		float: right;
 		margin-right: 5px;
+		cursor: pointer;
+		color: #DFCECE;
 	}
+		p.CloseinOverlay:hover{
+			color: rgb(131, 120, 120);
+			
+		}
 
 	#oB1.overlayBig{
 		background-color: #096850;
 	}
 	#oB2.overlayBig{
-		background-color: blueviolet;
+		background-color: #096850;
 	}
 	#oB3.overlayBig{
-		background-color: goldenrod;
+		background-color: #096850;
 	}
 	#oB4.overlayBig{
-		background-color: burlywood;
+		background-color: #096850;
 	}
 	#oB5.overlayBig{
-		background-color: indianred;
+		background-color: #096850;
 	}
 	#oB6.overlayBig{
-		background-color: cadetblue;
+		background-color: #096850;
 	}
 	
 
