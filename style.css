@@ -20,9 +20,31 @@ light: #DFCECE ;
 			color: #DFCECE; /*light*/
 		}
 
-	a{
-		color: #111111 ; /*dark*/
+	a.dark-mode{
+		color: #DFCECE ; /*dark*/
+		text-decoration: none;
 	}
+		#email.dark-mode:visited{
+			color: #DFCECE ; /*dark*/
+			text-decoration: none;
+			color: #096850;
+		}
+	a.light-mode{
+		color: #111111 ; /*light*/
+		text-decoration: none;
+	}
+		#email.light-mode:visited{
+			color: #111111 ; /*light*/
+			text-decoration: none;
+		}
+	
+	#email{
+		text-decoration: none;
+		color: #096850;
+	}
+		#email:hover{
+			color: #096850;
+		}
 
 	button {
 		background-color: #096850;
@@ -71,9 +93,12 @@ light: #DFCECE ;
 		padding: 10px;
 		font-size: 30px;
 	}
-	footer{
-		text-align: center;
+	#footer1{
+		float:left;
 	}
+		#footer2{
+			float: right;
+		}
 	p{
 		margin: 0;
 		display: inline-block;
@@ -89,7 +114,9 @@ light: #DFCECE ;
 		#toggleSetup{
 			float: right;
 		}
-	
+	hr{
+		width: 100%;
+	}
 
 /* the project panels and everything that comes with that */ 
 	.panelsAll{
@@ -206,5 +233,10 @@ light: #DFCECE ;
 		}
 		.text{
 			font-size: 50px;
+		}
+	}
+	@media screen and (max-width: 466px){
+		header{
+			font-size:20px;
 		}
 	}
