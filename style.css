@@ -1,253 +1,298 @@
-/*$dark: #111 ;
-light: #DFCECE ;
-*/
 /* dark mode stuff */
-	body.dark-mode{
-		background-color: #111111; /*dark*/
-		color: #DFCECE; /*light*/	
-	}	
-		button.dark-mode {
-			background-color: #DFCECE; /*light*/
-			color: #111111; /*dark*/
-		}
+body.dark-mode {
+  background-color: #111;
+  /*dark*/
+  color: #DFCECE;
+  /*light*/
+}
 
-	body.light-mode{
-		background-color: #DFCECE; /*light*/
-		color: #111111; /*dark*/
-	}
-		button.light-mode {
-			background-color: #111111; /*dark*/
-			color: #DFCECE; /*light*/
-		}
+button.dark-mode {
+  background-color: #DFCECE;
+  /*light*/
+  color: #111;
+  /*dark*/
+}
 
-	a.dark-mode{
-		color: #DFCECE ; /*dark*/
-		text-decoration: none;
-	}
-		#email.dark-mode:visited{
-			color: #DFCECE ; /*dark*/
-			text-decoration: none;
-			color: #096850;
-		}
-	a.light-mode{
-		color: #111111 ; /*light*/
-		text-decoration: none;
-	}
-		#email.light-mode:visited{
-			color: #111111 ; /*light*/
-			text-decoration: none;
-		}
-	
-	#email{
-		text-decoration: none;
-		color: #096850;
-	}
-		#email:hover{
-			color: #096850;
-		}
+body.light-mode {
+  background-color: #DFCECE;
+  /*light*/
+  color: #111;
+  /*dark*/
+}
 
-	button {
-		background-color: #096850;
-		border: red;
-		color: black;
-		font-size: 9px;
-		padding: 4% 2%;
-		border-radius: 10%;
-		text-align: center;
-		font-family: futura;
-		font-weight: bold;
-	}
-	button:hover {
-		background-color: #104b3c;
-		cursor: pointer;
-	}
+button.light-mode {
+  background-color: #111;
+  /*dark*/
+  color: #DFCECE;
+  /*light*/
+}
 
-	br.dark-mode{
-		color: #DFCECE;
-		height: 1px;
-		  background-color: #DFCECE;
-		  border: none;
-	
-	}
-	br.light-mode{
-		color: #111111;
-		height: 1px;
-		  background-color: #111111;
-		  border: none;
-	}
+a.dark-mode {
+  color: #DFCECE;
+  /*dark*/
+  text-decoration: none;
+}
 
-	
-/* regular items */	
-	body{
-		margin: 0 5%;
-		padding: 0 10%;
-		font-family: futura;
-		font-weight: bold;
-	}
-	header{
-		text-align: center;
-		font-size: 40px;
-	}
-	h2{
-		text-align: center;
-		padding: 10px;
-		font-size: 30px;
-	}
-	#footer1{
-		float:left;
-	}
-		#footer2{
-			float: right;
-		}
-	p{
-		margin: 0;
-		display: inline-block;
-		font-family: futura;
-		font-weight: bold;
-	}
-		p.toggletext{
-			padding: 0;
-			z-index: 2;
-			font-family: futura;
-			font-weight: bold;
-		}
-		#toggleSetup{
-			float: right;
-		}
-	hr{
-		width: 100%;
-	}
+#email.dark-mode:visited {
+  color: #DFCECE;
+  /*dark*/
+  text-decoration: none;
+  color: #096850;
+}
 
-/* the project panels and everything that comes with that */ 
-	.panelsAll{
-		display: grid;
-		grid-template-columns: auto auto;
-		grid-gap: 10px;
-		justify-content: center;
-		align-content: center;
-		padding: 15px;
-	}
-	.image{
-		height: auto;
-		max-width: 100%;
-		opacity:1;
-		display: block;
-		transition: .75s ease;
-	}
-	.overlay {
-		position: absolute;
-		top: 0;
-		bottom: 0;
-		left: 0;
-		right: 0;
-		height: 100%;
-		width: 100%;
-		opacity: 0;
-		transition: .75s ease;
-		
-	}
+a.light-mode {
+  color: #111;
+  /*light*/
+  text-decoration: none;
+}
 
-	.container {
-		position: relative;
-		cursor: pointer;
-	}	
-	.container:hover .overlay{
-		opacity: 1;
-	}
-	.container:hover .image{
-		opacity: .41;
-	}
-	
-	.text {
-		color: #096850;
-		font-size: 40px;
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-		font-family: futura;
-		font-weight: bold;
-	}
+#email.light-mode:visited {
+  color: #111;
+  /*light*/
+  text-decoration: none;
+}
+
+#email {
+  text-decoration: none;
+  color: #096850;
+}
+
+#email:hover {
+  color: #096850;
+}
+
+button {
+  background-color: #096850;
+  border: red;
+  color: black;
+  font-size: 9px;
+  padding: 4% 2%;
+  border-radius: 50% 25%;
+  text-align: center;
+  font-family: futura;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #096850;
+  cursor: pointer;
+}
+
+br.dark-mode {
+  color: #DFCECE;
+  height: 1px;
+  background-color: #DFCECE;
+  border: none;
+}
+
+br.light-mode {
+  color: #111;
+  height: 1px;
+  background-color: #111;
+  border: none;
+}
+
+/* regular items */
+body {
+  margin: 0 5%;
+  padding: 0 10%;
+  font-family: futura;
+  font-weight: bold;
+}
+
+header {
+  text-align: center;
+  font-size: 40px;
+}
+
+h2 {
+  text-align: center;
+  padding: 10px;
+  font-size: 30px;
+}
+
+#footer1 {
+  float: left;
+}
+
+#footer2 {
+  float: right;
+}
+
+p {
+  margin: 0;
+  display: inline-block;
+  font-family: futura;
+  font-weight: bold;
+}
+
+p.toggletext {
+  padding: 0;
+  z-index: 2;
+  font-family: futura;
+  font-weight: bold;
+}
+
+#toggleSetup {
+  float: right;
+}
+
+hr {
+  width: 100%;
+}
+
+/* the project panels and everything that comes with that */
+.panelsAll {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding: 15px;
+}
+
+.image {
+  height: auto;
+  max-width: 100%;
+  opacity: 1;
+  display: block;
+  -webkit-transition: .75s ease;
+  transition: .75s ease;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: .75s ease;
+  transition: .75s ease;
+}
+
+.container {
+  position: relative;
+  cursor: pointer;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.container:hover .image {
+  opacity: .41;
+}
+
+.text {
+  color: #096850;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-family: futura;
+  font-weight: bold;
+}
+
 /* this where all the stuff for the overlay of the panels gonna be */
-	.overlayBig{
-		position: fixed;
-		display: none;
-		width: auto;
-		max-height: auto;
-		top: 10%;
-		left: 13%;
-		right: 13%;
-		bottom: 15%;
-		background-color: #096850;
-		opacity: .986;
-		z-index: 2;
-		cursor: auto;
-		border-radius: 10px;
-		transition: 1.5s ease;
-	}
-		.overlayBig:hover, .image, .overlay{
-			
-		}
+.overlayBig {
+  position: fixed;
+  display: none;
+  width: auto;
+  max-height: auto;
+  top: 10%;
+  left: 13%;
+  right: 13%;
+  bottom: 15%;
+  background-color: #096850;
+  opacity: .986;
+  z-index: 2;
+  cursor: auto;
+  border-radius: 10px;
+  -webkit-transition: 1.5s ease;
+  transition: 1.5s ease;
+}
 
-	p.inOverlay{
-		font-size: 50px;
-		text-align: center;
-	}
-	p.CloseinOverlay{
-		font-size: 35px;
-		text-align: center;
-		float: right;
-		margin-right: 5px;
-		cursor: pointer;
-		color: #DFCECE;
-	}
-		p.CloseinOverlay:hover{
-			color: rgb(131, 120, 120);
-			
-		}
+p.inOverlay {
+  font-size: 50px;
+  text-align: center;
+}
 
-	#oB1.overlayBig{
-		background-color: #096850;
-	}
-	#oB2.overlayBig{
-		background-color: #096850;
-	}
-	#oB3.overlayBig{
-		background-color: #096850;
-	}
-	#oB4.overlayBig{
-		background-color: #096850;
-	}
-	#oB5.overlayBig{
-		background-color: #096850;
-	}
-	#oB6.overlayBig{
-		background-color: #096850;
-	}
-	
+p.CloseinOverlay {
+  font-size: 35px;
+  text-align: center;
+  float: right;
+  margin-right: 5px;
+  cursor: pointer;
+  color: #DFCECE;
+}
+
+p.CloseinOverlay:hover {
+  color: #837878;
+}
+
+#oB1.overlayBig {
+  background-color: #096850;
+}
+
+#oB2.overlayBig {
+  background-color: #096850;
+}
+
+#oB3.overlayBig {
+  background-color: #096850;
+}
+
+#oB4.overlayBig {
+  background-color: #096850;
+}
+
+#oB5.overlayBig {
+  background-color: #096850;
+}
+
+#oB6.overlayBig {
+  background-color: #096850;
+}
 
 /* this for the mobile experience */
-	@media screen and (max-width: 750px){
-		.panelsAll{
-			grid-template-columns: auto;
-			display: grid;
-			grid-gap: 10px;
-			justify-content: center;
-			align-content: center;
-			padding: 10px;
-		}
-		#overlayBig{
-			top: 40%;
-			left: 10%;
-			right: 10%;
-			bottom: 10%;
-		}
-		.text{
-			font-size: 50px;
-		}
-	}
-	@media screen and (max-width: 466px){
-		header{
-			font-size:20px;
-		}
-	}
+@media screen and (max-width: 750px) {
+  .panelsAll {
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+    display: -ms-grid;
+    display: grid;
+    grid-gap: 10px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    padding: 10px;
+  }
+  #overlayBig {
+    top: 40%;
+    left: 10%;
+    right: 10%;
+    bottom: 10%;
+  }
+  .text {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 466px) {
+  header {
+    font-size: 20px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
