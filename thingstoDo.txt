@@ -1,7 +1,7 @@
 things to do:
     1. make the line also switch from dark to light
-    2. make all the panels
-        - label the top of the panels as PROJECTS
+    2. make all the panels//
+        - label the top of the panels as PROJECTS//
         - Make the panels in Photoshop
     3. make the info part under my name where all the contact info is located
     4. add the info for the footer
