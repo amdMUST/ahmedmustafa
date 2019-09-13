@@ -1,12 +1,7 @@
 things to do:
     1. make the line also switch from dark to light
-    2. make all the panels//
-        - label the top of the panels as PROJECTS//
-        - Make the panels in Photoshop
     3. make the info part under my name where all the contact info is located
     4. add the info for the footer
-    5. CHANGE THE FAVICON TO A CUSTOM PICTURE
-    6. make a better color pallate for the site
     7. make the games/projects for all the panels 
     8. gotta fix that once in panel pull out, it still transitions the main panel
 
