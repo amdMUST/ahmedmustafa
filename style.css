@@ -223,17 +223,8 @@ hr {
 }
 
 p.inOverlay {
-  font-size: 47px;
+  font-size: 50px;
   text-align: center;
-  margin-left: 5px;
-}
-p.inOverlaytext{
-  font-size: 24px;
-  text-align: center;
-  margin-left: 5px;
-  margin-top: 5px;
-  display: block;
-  
 }
 
 p.CloseinOverlay {
@@ -247,6 +238,10 @@ p.CloseinOverlay {
 
 p.CloseinOverlay:hover {
   color: #837878;
+}
+
+p.inOverlaytext {
+  font-size: 25px;
 }
 
 #oB1.overlayBig {
@@ -294,6 +289,9 @@ p.CloseinOverlay:hover {
     right: 10%;
     bottom: 10%;
   }
+  p.inOverlaytext {
+    font-size: 15px;
+  }
   .text {
     font-size: 50px;
   }
@@ -302,6 +300,21 @@ p.CloseinOverlay:hover {
 @media screen and (max-width: 466px) {
   header {
     font-size: 20px;
+  }
+  p.inOverlaytext {
+    font-size: 50%;
+  }
+}
+
+@media screen and (max-height: 550px) {
+  p.inOverlaytext {
+    font-size: 80%;
+  }
+}
+
+@media screen and (max-height: 466px) {
+  p.inOverlaytext {
+    font-size: 60%;
   }
 }
 /*# sourceMappingURL=style.css.map */

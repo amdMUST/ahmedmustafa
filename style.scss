@@ -203,6 +203,9 @@ $accent: #096850 ;
 			color: rgb(131, 120, 120);
 			
 		}
+		p.inOverlaytext{
+			font-size:25px;
+		}
 
 	#oB1.overlayBig{
 		background-color: $accent;
@@ -240,8 +243,8 @@ $accent: #096850 ;
 			right: 10%;
 			bottom: 10%;
 		}
-		p.inOverlay{
-			font-size:10px;
+		p.inOverlaytext{
+			font-size:15px;
 		}
 		.text{
 			font-size: 50px;
@@ -250,5 +253,18 @@ $accent: #096850 ;
 	@media screen and (max-width: 466px){
 		header{
 			font-size:20px;
+		}
+		p.inOverlaytext{
+			font-size:50%;
+		}
+	}
+	@media screen and (max-height: 550px){
+		p.inOverlaytext{
+			font-size:80%;
+		}
+	}
+	@media screen and (max-height: 466px){
+		p.inOverlaytext{
+			font-size:60%;
 		}
 	}
