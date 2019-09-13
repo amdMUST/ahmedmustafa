@@ -265,6 +265,11 @@ $accent: #096850 ;
 	}
 	@media screen and (max-height: 466px){
 		p.inOverlaytext{
-			font-size:60%;
+			font-size:50%;
+		}
+	}
+	@media screen and (max-height: 200px){
+		p.inOverlaytext{
+			font-size:20%;
 		}
 	}
