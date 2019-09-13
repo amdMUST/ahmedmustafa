@@ -306,6 +306,15 @@ p.inOverlaytext {
   }
 }
 
+@media screen and (max-width: 223px) {
+  header {
+    font-size: 20px;
+  }
+  p.inOverlaytext {
+    font-size: 20%;
+  }
+}
+
 @media screen and (max-height: 550px) {
   p.inOverlaytext {
     font-size: 80%;
