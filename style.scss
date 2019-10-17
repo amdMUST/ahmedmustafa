@@ -38,8 +38,13 @@ $accent: #096850 ;
 			color: $dark ; /*light*/
 			text-decoration: none;
 		}
+	a.inOverlay{
+		display: block;
+		text-decoration: none;
+		font-size: 20px;
+	}
 	
-	#email{
+	#email, #linkedtitle{
 		text-decoration: none;
 		color: $accent;
 	}
@@ -187,7 +192,7 @@ $accent: #096850 ;
 		transition: 1.5s ease;
 	}
 
-	p.inOverlay{
+	p.inOverlay, #linkedtitle {
 		font-size: 50px;
 		text-align: center;
 	}
@@ -211,7 +216,7 @@ $accent: #096850 ;
 		background-color: $accent;
 	}
 	#oB2.overlayBig{
-		background-color: #afb086;
+		background-color: #68725e;//#afb086;
 	}
 	#oB3.overlayBig{
 		background-color: #a580a1;

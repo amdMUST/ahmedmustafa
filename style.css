@@ -52,7 +52,13 @@ a.light-mode {
   text-decoration: none;
 }
 
-#email {
+a.inOverlay {
+  display: block;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+#email, #linkedtitle {
   text-decoration: none;
   color: #096850;
 }
@@ -104,20 +110,11 @@ header {
   text-align: center;
   font-size: 40px;
 }
-h1{
-  text-align: center;
-}
-h2{
-  text-align: center;
-  padding: 1px 5px 0px 5px; 
-  font-size: 40px;
-  z-index: 2;
-}
-h6{
+
+h2 {
   text-align: center;
   padding: 10px;
-  font-size: 20px;
-  display: inline-block;
+  font-size: 30px;
 }
 
 #footer1 {
@@ -231,7 +228,7 @@ hr {
   transition: 1.5s ease;
 }
 
-p.inOverlay {
+p.inOverlay, #linkedtitle {
   font-size: 50px;
   text-align: center;
 }
@@ -258,7 +255,7 @@ p.inOverlaytext {
 }
 
 #oB2.overlayBig {
-  background-color: #afb086;
+  background-color: #68725e;
 }
 
 #oB3.overlayBig {
