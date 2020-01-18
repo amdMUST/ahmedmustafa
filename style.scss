@@ -1,6 +1,8 @@
 $dark: #111 ;
 $light: #DFCECE ;
 $accent: #096850 ;
+$link: #C7DE6B;
+$linkHover: #B7745A ;
 
 /* dark mode stuff */
 	body.dark-mode{
@@ -10,7 +12,9 @@ $accent: #096850 ;
 		button.dark-mode {
 			background-color: $light; /*light*/
 			color:$dark; /*dark*/
+			padding: 1% 1%;
 		}
+		
 
 	body.light-mode{
 		background-color: $light; /*light*/
@@ -19,7 +23,9 @@ $accent: #096850 ;
 		button.light-mode {
 			background-color: $dark; /*dark*/
 			color: $light; /*light*/
+			padding: 1% 1%;
 		}
+		
 
 	a.dark-mode{
 		color: $light ; /*dark*/
@@ -57,15 +63,17 @@ $accent: #096850 ;
 		border: red;
 		color: black;
 		font-size: 9px;
-		padding: 4% 2%;
-		border-radius: 50% 25%;
+		padding: 1% 1%;
+		border-radius: 5%;
 		text-align: center;
 		font-family: futura;
 		font-weight: bold;
+		margin: 2%
 	}
 	button:hover {
-		background-color: $accent;
 		cursor: pointer;
+		background-color: #350764;
+		padding: 1% 1%;
 	}
 
 	br.dark-mode{
@@ -123,6 +131,12 @@ $accent: #096850 ;
 	hr{
 		width: 100%;
 	}
+	#bio{
+		
+		text-align: center;
+		margin: inherit;
+		float: left;
+	}
 
 /* the project panels and everything that comes with that */ 
 	.panelsAll{
@@ -166,7 +180,7 @@ $accent: #096850 ;
 	
 	.text {
 		color: $accent;
-		font-size: 40px;
+		font-size: 33px;
 		position: absolute;
 		top: 50%;
 		left: 50%;
@@ -190,6 +204,16 @@ $accent: #096850 ;
 		cursor: auto;
 		border-radius: 10px;
 		transition: 1.5s ease;
+	}
+
+	a.inOverlay{
+		color: $link;
+	}
+	a.inOverlay:visited{
+		color: $link;
+	}
+	a.inOverlay:hover{
+		color: $linkHover;
 	}
 
 	p.inOverlay, #linkedtitle {
@@ -234,6 +258,11 @@ $accent: #096850 ;
 
 /* this for the mobile experience */
 	@media screen and (max-width: 750px){
+
+		.overlay{
+			opacity: 1;
+		}
+
 		.panelsAll{
 			grid-template-columns: auto;
 			display: grid;
@@ -252,7 +281,10 @@ $accent: #096850 ;
 			font-size:15px;
 		}
 		.text{
-			font-size: 50px;
+			font-size: 25px;
+		}
+		p.inOverlay{
+			font-size: 20px;
 		}
 	}
 	@media screen and (max-width: 466px){

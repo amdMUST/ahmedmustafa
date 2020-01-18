@@ -11,6 +11,7 @@ button.dark-mode {
   /*light*/
   color: #111;
   /*dark*/
+  padding: 1% 1%;
 }
 
 body.light-mode {
@@ -25,6 +26,7 @@ button.light-mode {
   /*dark*/
   color: #DFCECE;
   /*light*/
+  padding: 1% 1%;
 }
 
 a.dark-mode {
@@ -72,16 +74,18 @@ button {
   border: red;
   color: black;
   font-size: 9px;
-  padding: 4% 2%;
-  border-radius: 50% 25%;
+  padding: 1% 1%;
+  border-radius: 5%;
   text-align: center;
   font-family: futura;
   font-weight: bold;
+  margin: 2%;
 }
 
 button:hover {
-  background-color: #096850;
   cursor: pointer;
+  background-color: #350764;
+  padding: 1% 1%;
 }
 
 br.dark-mode {
@@ -147,6 +151,12 @@ hr {
   width: 100%;
 }
 
+#bio {
+  text-align: center;
+  margin: inherit;
+  float: left;
+}
+
 /* the project panels and everything that comes with that */
 .panelsAll {
   display: -ms-grid;
@@ -199,7 +209,7 @@ hr {
 
 .text {
   color: #096850;
-  font-size: 40px;
+  font-size: 33px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -226,6 +236,18 @@ hr {
   border-radius: 10px;
   -webkit-transition: 1.5s ease;
   transition: 1.5s ease;
+}
+
+a.inOverlay {
+  color: #C7DE6B;
+}
+
+a.inOverlay:visited {
+  color: #C7DE6B;
+}
+
+a.inOverlay:hover {
+  color: #B7745A;
 }
 
 p.inOverlay, #linkedtitle {
@@ -276,6 +298,9 @@ p.inOverlaytext {
 
 /* this for the mobile experience */
 @media screen and (max-width: 750px) {
+  .overlay {
+    opacity: 1;
+  }
   .panelsAll {
     -ms-grid-columns: auto;
         grid-template-columns: auto;
@@ -299,7 +324,10 @@ p.inOverlaytext {
     font-size: 15px;
   }
   .text {
-    font-size: 50px;
+    font-size: 25px;
+  }
+  p.inOverlay {
+    font-size: 20px;
   }
 }
 
