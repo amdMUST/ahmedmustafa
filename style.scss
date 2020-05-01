@@ -1,6 +1,7 @@
 $dark: #111 ;
 $light: #DFCECE ;
 $accent: #096850 ;
+$accent2: #1957e7;
 $link: #C7DE6B;
 $linkHover: #B7745A ;
 
@@ -72,7 +73,7 @@ $linkHover: #B7745A ;
 	}
 	button:hover {
 		cursor: pointer;
-		background-color: #350764;
+		background-color: #ce8351;
 		padding: 1% 1%;
 	}
 
@@ -179,7 +180,7 @@ $linkHover: #B7745A ;
 	}
 	
 	.text {
-		color: $accent;
+		color: $accent2;
 		font-size: 33px;
 		position: absolute;
 		top: 50%;
