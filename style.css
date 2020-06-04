@@ -299,8 +299,14 @@ p.inOverlaytext {
 /* this for the mobile experience */
 @media screen and (max-width: 750px) {
   .overlay {
-    opacity: 1;
+    opacity: 0;
   }
+
+  body{
+    margin: none;
+    padding: 0;
+  }
+
   .panelsAll {
     -ms-grid-columns: auto;
         grid-template-columns: auto;
