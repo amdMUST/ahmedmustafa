@@ -301,12 +301,6 @@ p.inOverlaytext {
   .overlay {
     opacity: 0;
   }
-
-  body{
-    margin: none;
-    padding: 0;
-  }
-
   .panelsAll {
     -ms-grid-columns: auto;
         grid-template-columns: auto;
